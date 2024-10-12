@@ -44,10 +44,10 @@ You can generate and manage API keys used for advanced integration. To generate 
 For example:
 
 - **Key Name:** SDK Test  
-  **Allowed Origin:** [http://localhost:5173](http://localhost:5173)
+  **Allowed Origin:** `http://localhost:5173`
     
 - **Key Name:** SDK Prod  
-  **Allowed Origin:** [https://frostbits.solutions](https://frostbits.solutions)
+  **Allowed Origin:** `https://frostbits.solutions`
 
 ### API Key Security
 

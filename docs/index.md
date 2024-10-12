@@ -18,16 +18,16 @@ Arcpay simplifies Web3 transactions, making it accessible for businesses and use
 
 If you're new to Arcpay, here’s a quick guide to get started:
 
-1. [Creating an Organization](./organization.md)  
+1. [Creating an Organization](guide/organization.md)  
    Start by creating an organization where you can manage your assets and set up your listings.
    
-2. [Creating a Listing](./listing.md)  
+2. [Creating a Listing](guide/listing.md)  
    Learn how to list your assets for sale, auction, or reverse auction.
 
-3. [Buying a Listing](./buy.md)  
+3. [Buying a Listing](guide/buy.md)  
    Explore the process of purchasing assets listed by other users in a seamless transaction flow.
 
-4. [Reviewing Activity](./activity.md)  
+4. [Reviewing Activity](guide/activity.md)  
    Stay updated on your transaction history, including details like sales, buys, and listing activity.
 
 ## SDK Integration

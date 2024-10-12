@@ -27,10 +27,10 @@ To generate a new API key:
 
 Example:
 
-- **Key Name**: SDK Test  
-  **Allowed Origin**: [http://localhost:5173](http://localhost:5173)
-
-- **Key Name**: SDK Prod  
-  **Allowed Origin**: [https://frostbits.solutions](https://frostbits.solutions)
+- **Key Name:** SDK Test  
+  **Allowed Origin:** `http://localhost:5173`
+    
+- **Key Name:** SDK Prod  
+  **Allowed Origin:** `https://frostbits.solutions`
 
 3. After setting up the key, use it to authenticate requests and ensure secure access to Arcpay APIs.
