@@ -4,7 +4,7 @@ Track your transaction history and performance metrics via the **Dashboard**. St
 
 ![Activity](<Demo4 GIF.gif>)
 
-## Step-by-Step Guide to Reviewing Activity
+## Step-by-Step Guide
 
 ### 1. Navigate to the Dashboard
 
@@ -27,6 +27,6 @@ Track your transaction history and performance metrics via the **Dashboard**. St
 
 - Click on a **Tx Group ID** or **Listing** to see more details about that transaction.
 
-## Notes
-
-- The transaction history updates in **real-time**, allowing you to monitor activity instantly.
+::: info
+The transaction history updates in **real-time**, allowing you to monitor activity instantly.
+:::

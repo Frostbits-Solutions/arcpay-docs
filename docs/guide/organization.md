@@ -4,7 +4,7 @@ Arcpay allows you to create and manage organizations to handle Web3 transactions
 
 ![Organization](<Demo1 GIF.gif>)
 
-## Step-by-Step Guide to Creating an Organization
+## Step-by-Step Guide
 
 ### 1. Navigate to the Dashboard
 
@@ -32,6 +32,6 @@ Arcpay allows you to create and manage organizations to handle Web3 transactions
 
 - Once the address is linked, your dashboard will update to show new features related to the organization, such as listing management and transaction history.
 
-## Notes
-
-- Ensure that the AVM address linked to the organization is correct, as it will be used for all future transactions.
+::: warning
+Ensure that the AVM address linked to the organization is correct, as it will be used for all future transactions.
+:::

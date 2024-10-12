@@ -4,7 +4,7 @@ Arcpay enables users to list assets for sale, auctions, and reverse auctions. Th
 
 ![Listing](<Demo2 GIF.gif>)
 
-## Step-by-Step Guide to Creating a Listing
+## Step-by-Step Guide
 
 ### 1. Navigate to New Listing
 
@@ -40,6 +40,6 @@ Arcpay enables users to list assets for sale, auctions, and reverse auctions. Th
 - Once the listing is created, you’ll receive a confirmation message: **Listing Created**.
 - Click **Close** or **X** to exit the listing creation screen.
 
-## Notes
-
-- Ensure you have sufficient ALGO in your wallet to cover transaction fees.
+::: tip
+Ensure your wallet has enough ALGO to cover the purchase price and transaction fees.
+:::

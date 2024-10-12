@@ -4,7 +4,7 @@ Arcpay provides a streamlined process for purchasing listed assets, whether they
 
 ![Buy](<Demo3 GIF.gif>)
 
-## Step-by-Step Guide to Buying a Listing
+## Step-by-Step Guide
 
 ### 1. Navigate to the Listings Page
 
@@ -55,5 +55,10 @@ Arcpay provides a streamlined process for purchasing listed assets, whether they
 
 ## Important Notes
 
-- Ensure your wallet has enough ALGO to cover the purchase price and transaction fees.
-- Double-check asset details before finalizing the purchase.
+::: tip
+Ensure your wallet has enough ALGO to cover the purchase price and transaction fees.
+:::
+::: warning
+Double-check asset details before finalizing the purchase.
+:::
+

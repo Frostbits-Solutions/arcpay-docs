@@ -8,7 +8,25 @@ Here’s a breakdown of the settings you can configure under the **General** sec
 
 ### Invite New Team Members
 
-Add team members to your organization by sending an email invitation. You can define their roles and set their access levels within the organization.
+You can easily expand your team by inviting new members via email. When sending an invitation, you'll also have the option to define each team member's role and set their access levels within your organization.
+
+#### Team Member Roles
+
+There are two primary roles within the organization:
+
+##### Admin
+- Has full control over the organization.
+- Can manage team members, including adding and removing them.
+- Can modify settings, addresses, and listings.
+
+##### Member
+- Limited permissions compared to Admin.
+- **Cannot** add or remove other team members.
+- **Can** add new addresses for transaction purposes.
+- **Cannot** modify organization-wide settings.
+- **Can** create and remove listings.
+
+By defining roles clearly, you ensure that each team member has the appropriate level of access based on their responsibilities within the organization.
 
 ### Generate New API Key
 
@@ -49,7 +67,6 @@ For example:
 - **Key Name:** SDK Prod  
   **Allowed Origin:** `https://frostbits.solutions`
 
-### API Key Security
-
+::: warning
 Make sure to specify the correct **Origin** for each key. Requests from any origin that doesn’t match the specified one will be blocked.
-
+:::

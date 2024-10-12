@@ -8,19 +8,30 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Arcpay', link: 'https://arcpay.dev' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Guide',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Organization', link: '/guide/organization' },
+          { text: 'Listing', link: '/guide/listing' },
+          { text: 'Buy', link: '/guide/buy' },
+          { text: 'Activity', link: '/guide/activity' }
+        ]
+      },
+      {
+        text: 'Additional Information',
+        items: [
+          { text: 'Integrations', link: '/integrations' },
+          { text: 'Listings', link: '/listings' },
+          { text: 'Settings', link: '/settings' },
+          { text: 'FAQ', link: '/faq' }
         ]
       }
     ],
-
+    
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]

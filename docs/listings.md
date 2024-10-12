@@ -41,12 +41,16 @@ Arcpay supports three types of listings:
 
 ### 3\. Reverse Auction (Dutch Auction)
 
-- A **Dutch Auction** starts with a high price that decreases over time. The price drops every block until the minimum price is reached or the auction duration expires.
+- A **Reverse Auction** starts with a high price that decreases over time. The price drops every block until the minimum price is reached or the auction duration expires.
 
 ## Listing Management
 
-Once your listing is created, manage it through the **Listings** page, where you can:
+Once your listing is created, manage it through the **Listings** page, where you can view:
 
-- **View Status:** Active, Pending, Canceled, Closed.
-- **View Listing ID:** A unique identifier for each listing.
-- **Edit or Cancel Listings:** Options to update the price or cancel the listing.
+- **Status:** Active, Pending, Canceled, Closed.
+- **Listing ID:** A unique identifier for each listing.
+- **Type:** The listing type. Sale, Auction, Reverse.
+- **Asset:** Name and ID of on-chain asset.
+- **Seller:** On-chain address of the seller.
+- **Share:** Copy a direct link to the purchase modal.
+- **Cancel:** Cancel the listing.
