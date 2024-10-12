@@ -2,6 +2,8 @@
 
 Arcpay allows you to create and manage organizations to handle Web3 transactions, including NFTs, ASAs, and RWAs. By setting up an organization, you can manage assets, create listings, and integrate the SDK for team collaboration and expanded market reach.
 
+![Organization](<Demo1 GIF.gif>)
+
 ## Step-by-Step Guide to Creating an Organization
 
 ### 1. Navigate to the Dashboard

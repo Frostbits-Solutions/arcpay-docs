@@ -2,6 +2,8 @@
 
 Arcpay provides a streamlined process for purchasing listed assets, whether they are for sale or up for auction.
 
+![Buy](<Demo3 GIF.gif>)
+
 ## Step-by-Step Guide to Buying a Listing
 
 ### 1. Navigate to the Listings Page

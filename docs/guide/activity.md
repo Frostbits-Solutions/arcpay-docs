@@ -2,6 +2,8 @@
 
 Track your transaction history and performance metrics via the **Dashboard**. Stay updated on the latest transactions, including buys, sells, and listings.
 
+![Activity](<Demo4 GIF.gif>)
+
 ## Step-by-Step Guide to Reviewing Activity
 
 ### 1. Navigate to the Dashboard

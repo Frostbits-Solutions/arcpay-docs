@@ -2,6 +2,8 @@
 
 Arcpay enables users to list assets for sale, auctions, and reverse auctions. The system supports tokenized and non-tokenized assets, allowing for flexible sale formats.
 
+![Listing](<Demo2 GIF.gif>)
+
 ## Step-by-Step Guide to Creating a Listing
 
 ### 1. Navigate to New Listing

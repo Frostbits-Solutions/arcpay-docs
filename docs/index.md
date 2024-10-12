@@ -1,5 +1,12 @@
-# Welcome to Arcpay Documentation
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
+hero:
+  name: "arcpay"
+  text: "Payment processor"
+  tagline: Easy Monetization for AVM Dapps
+---
 Arcpay simplifies Web3 transactions, making it accessible for businesses and users alike. Built on AVM technology, Arcpay allows you to:
 
 - **Effortlessly transact using AVM tokens**
@@ -35,12 +42,13 @@ Arcpay allows you to customize your experience by managing:
 - **Organization Management**: Invite team members, link addresses, and configure fees for both primary and secondary markets.
 - **Subscription Plans**: Upgrade your subscription to unlock advanced features, including modular fees and custom requests.
 
----
+
 
 ## Frequently Asked Questions
 
 If you encounter issues or have questions, visit our [FAQ section](./faq.md) for troubleshooting and detailed explanations.
 
----
+
 
 **Start your journey with Arcpay and explore the full potential of Web3 transactions!**
+---
