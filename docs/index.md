@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "arcpay docs"
-  text: "Arcpay documentation site"
-  tagline: My great project tagline
+  name: "arcpay"
+  text: "Payment processor"
+  tagline: Easy Monetization for AVM Dapps
   actions:
     - theme: brand
       text: Markdown Examples
