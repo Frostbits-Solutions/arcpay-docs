@@ -45,12 +45,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: "Made with ❤️ by Frostbits Solutions",
-      copyright: `© ${new Date().getFullYear()} Frostbits Solutions. All rights reserved.`,
-      links: [
-        { text: 'Frostbits', link: 'https://frostbits.solutions' },
-        { text: 'X (Twitter)', link: 'https://x.com/FrostbitsLtd' }
-      ]
+      message: 'Follow us on <a href="https://x.com/FrostbitsLtd" target="_blank">X</a> | Visit our <a href="https://frostbits.solutions" target="_blank">website</a>',
+      copyright: `Copyright © ${new Date().getFullYear()} Frostbits Solutions`
     }
   }
 })

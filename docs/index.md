@@ -6,7 +6,7 @@ hero:
   text: "Effortless Web3 Payments"
   tagline: "Easy Monetization for AVM Dapps"
   image:
-    src: /public/Dashboard.png
+    src: /Dashboard.png
     alt: "Arcpay Logo"
   actions:
     - theme: brand
