@@ -42,6 +42,14 @@ export default defineConfig({
           { text: 'Settings', link: '/settings' },
           { text: 'FAQ', link: '/faq' }
         ]
+      },
+      {
+        text: 'Examples',
+        items: [
+          { text: 'NFT Project', link: '/examples/NFTs' },
+          { text: 'Merch Shop', link: '/examples/RWAs' },
+          { text: 'Secondary Market', link: '/examples/Secondary' }
+        ]
       }
     ],
     
