@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Arcpay"
-  text: "Effortless <span id='scrolling-keyword'>Web3</span> Payments"
+  text: "Simple <span id='scrolling-keyword'>Web3</span> \nPayments"
   tagline: "Easy Monetization for AVM Dapps"
   image:
     src: /images/Dashboard.png
@@ -95,12 +95,48 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
 
 <style>
 
+/* Default for larger screens (greater than 959px) */
 #scrolling-keyword {
+  display: inline-block;
+  text-align: left;
+  white-space: nowrap;
   font-weight: bold;
   background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: opacity 0.3s ease;
+}
+
+/* For screens less than 640px */
+@media (max-width: 639px) {
+  #scrolling-keyword {
+    min-width: 140px; /* Ensures space for the longest word on smaller screens */
+  }
+}
+
+/* For screens between 640px and 959px */
+@media (min-width: 640px) and (max-width: 959px) {
+  #scrolling-keyword {
+    min-width: 190px; /* Adjusted min width for medium screens */
+  }
+}
+
+/* Make sure hero text is always left-aligned */
+.VPHomeHero h1,
+.VPHomeHero p,
+.VPHomeHero .VPHomeHero-actions {
+  text-align: left;
+  justify-content: flex-start;
+}
+
+@media (max-width: 959px) {
+  .VPHomeHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  }
 }
 
 .vp-feature {
@@ -146,11 +182,12 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
   width: 48px; /* Adjust the size as needed */
   height: auto;
 }
+
 </style>
 
 <script>
   if (typeof window !== 'undefined') {
-    const keywords = ['Web3', 'AVM', 'Algorand', 'Voi', 'Crypto'];
+    const keywords = ['AVM', 'Algo', 'ASA', 'Voi', 'ARC200'];
     let currentIndex = 0;
 
     setInterval(() => {
@@ -167,6 +204,6 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
           keywordElement.style.opacity = '1';
         }, 300); // Timing matches the CSS transition
       }
-    }, 7000); // Change every 5 seconds
+    }, 4000); // Change every 4 seconds
   }
 </script>
