@@ -14,6 +14,11 @@ export default defineConfig({
   description: "Arcpay documentation",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+
+    search: {
+      provider: 'local'
+    },
+
     nav: [
       { text: 'Arcpay Dashboard', link: 'https://app.arcpay.dev' }
     ],
@@ -22,11 +27,11 @@ export default defineConfig({
       {
         text: 'Guide',
         items: [
+          { text: 'Get Started', link: '/guide/getstarted' },
           { text: 'Organization', link: '/guide/organization' },
           { text: 'Listing', link: '/guide/listing' },
           { text: 'Buy', link: '/guide/buy' },
-          { text: 'Activity', link: '/guide/activity' },
-          { text: 'Get Started', link: '/guide/getstarted' }
+          { text: 'Activity', link: '/guide/activity' }
         ]
       },
       {
