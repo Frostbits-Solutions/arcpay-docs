@@ -38,7 +38,7 @@ Arcpay provides a streamlined process for purchasing listed assets, whether they
   - **WalletConnect**
   - **Lute**
   - **Kibisis**
-- Choose the wallet account with enough ALGO for the transaction.
+- Choose the wallet account with enough network token(Algo, Voi) for the transaction.
 
 ### 6. Confirm Transactions
 
@@ -56,7 +56,7 @@ Arcpay provides a streamlined process for purchasing listed assets, whether they
 ## Important Notes
 
 ::: tip
-Ensure your wallet has enough ALGO to cover the purchase price and transaction fees.
+Ensure your wallet has enough network token(Algo, Voi) to cover the purchase price and transaction fees.
 :::
 ::: warning
 Double-check asset details before finalizing the purchase.

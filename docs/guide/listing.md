@@ -19,8 +19,8 @@ Arcpay enables users to list assets for sale, auctions, and reverse auctions. Th
 ### 3. Fill in Listing Details
 
 - Click **Click to select asset** and choose the asset you wish to list. You can search by **Asset ID** if necessary.
-- Select the **Listing Type** (Sale, Auction, or Reverse Auction).
-- Enter the **Asking Price** and confirm the currency (e.g., **ALGO**).
+- Select the **Listing Type** (Sale, Auction, or Reverse).
+- Enter the **Asking Price** and confirm the currency (e.g. **ALGO**, **USDC**).
 
 ### 4. Create the Listing
 
@@ -41,5 +41,5 @@ Arcpay enables users to list assets for sale, auctions, and reverse auctions. Th
 - Click **Close** or **X** to exit the listing creation screen.
 
 ::: tip
-Ensure your wallet has enough ALGO to cover the purchase price and transaction fees.
+Ensure your wallet has enough network token(Algo, Voi) to cover the purchase price and transaction fees.
 :::

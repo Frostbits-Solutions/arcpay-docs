@@ -39,7 +39,7 @@ features:
       width: "50px" 
       height: "50px"  
     title: Sell with Ease #Create Secondary Markets
-    details: A simplified user process to purchase NFTs, ASAs, and RWAs in a secure, decentralized environment.
+    details: A simplified user process to purchase NFTs, SFTs, and RWAs in a secure, decentralized environment.
     link: /guide/buy.md #SDK integration
   - icon:
       src: /3dicons/chart-dynamic-gradient.png 
