@@ -102,7 +102,7 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
 
 /* CSS to adjust the image size for the hero */
 .VPImage.image-src {
-  max-width: 500px; /* Increase the maximum width */
+  max-width: 500px !important;  /* Increase the maximum width */
   height: auto;     /* Maintain aspect ratio */
   margin: 0 auto;   /* Center the image */
   display: block;   /* Ensure it's treated as a block-level element */
