@@ -193,3 +193,33 @@ Example:
 ::: tip
 After setting up the key, use it to authenticate requests and ensure secure access to Arcpay APIs.
 :::
+
+## Opensource Repositories
+
+Arcpay is built on a foundation of open-source technologies supported by several key repositories maintained by Frostbits Solutions. Below are the core repositories and their roles within the Arcpay ecosystem.
+
+- **[arcpay-contracts](https://github.com/Frostbits-Solutions/arcpay-contracts)**  
+  :::info
+  Manages smart contracts for handling Algorand Standard Assets ([ASAs](https://developer.algorand.org/docs/get-details/asa/)) as well as [ARC200](https://arc.algorand.foundation/ARCs/arc-0200) and [ARC72](https://arc.algorand.foundation/ARCs/arc-0072) Smart Assets. These contracts enable secure, decentralized transaction functionality on Arcpay.
+  :::
+
+- **[arcpay-dashboard](https://github.com/Frostbits-Solutions/arcpay-dashboard)**  
+  :::info
+  Allows users to create and manage their organizations, track transaction activity, and manage assets in a user-friendly interface.
+  :::
+
+- **[arcpay-sdk](https://github.com/Frostbits-Solutions/arcpay-sdk)**  
+  :::info
+  Handles the modal for creating, managing and purchasing listings, as well as integrating with wallets. It enables developers to integrate Arcpay functionalities like asset listing, wallet connectivity, and transaction processing into their platforms.
+  :::
+
+- **[arcpay-indexer](https://github.com/Frostbits-Solutions/arcpay-indexer)**  
+  :::info
+  Real-time block indexer that tracks and processes transactions on the Arcpay platform, ensuring up-to-date synchronization and real-time transaction monitoring by constantly interacting with the AVM networks.
+  :::
+
+- **[arcpay-docs](https://github.com/Frostbits-Solutions/arcpay-docs)**  
+  :::info
+  Contains all documentation related to Arcpay, including user guides, SDK integration instructions, and API reference material. Provides clear and detailed instructions for developers and users working with Arcpay.
+  :::
+
