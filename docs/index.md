@@ -1,48 +1,96 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "arcpay"
-  text: "Payment processor"
-  tagline: Easy Monetization for AVM Dapps
+  name: "Arcpay"
+  text: "Effortless Web3 Payments"
+  tagline: "Easy Monetization for AVM Dapps"
+  image:
+    src: /images/arcpay-logo.png
+    alt: "Arcpay Logo"
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /getstarted.md
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/frostbits-solutions
+
+features:
+  - icon: ⚙️
+    title: Organization Management
+    details: Manage your team and listings effortlessly by creating organizations and assigning roles.
+    link: /guide/organization.md
+  - icon: 🛍️
+    title: Seamless Listings
+    details: Create, manage, and customize sales, auctions, and reverse auctions for digital assets.
+    link: /guide/listing.md
+  - icon: 💸
+    title: Buy with Ease
+    details: A simplified process to purchase NFTs, ASAs, and RWAs in a secure, decentralized environment.
+    link: /guide/buy.md
+  - icon: 📊
+    title: Transaction Monitoring
+    details: Stay updated on your transaction activity by reviewing your sales and purchases.
+    link: /guide/activity.md
 ---
-Arcpay simplifies Web3 transactions, making it accessible for businesses and users alike. Built on AVM technology, Arcpay allows you to:
+---
+
+# Welcome to Arcpay
+
+Arcpay simplifies Web3 transactions, making them accessible for businesses and users alike. Built on AVM technology, Arcpay allows you to:
 
 - **Effortlessly transact using AVM tokens**
 - **Buy and sell NFTs, ASAs, and real-world assets (RWAs)**
 - **Collaborate as a team through organization management**
-- **Create new revenue streams with self-deployed primary listings and SDK secondary markets**
+- **Create new revenue streams with self-deployed primary listings and SDK powered secondary markets**
 
-## Quickstart
+---
 
-If you're new to Arcpay, here’s a quick guide to get started:
+<div class="vp-feature">
+  <div class="vp-feature-icon">🔌</div>
+  <div class="vp-feature-content">
+    <h3><a href="./integrations">SDK Integration</a></h3>
+    <p>For developers looking to integrate Arcpay into their platforms.</p>
+  </div>
+</div>
 
-1. [Creating an Organization](guide/organization.md)  
-   Start by creating an organization where you can manage your assets and set up your listings.
-   
-2. [Creating a Listing](guide/listing.md)  
-   Learn how to list your assets for sale, auction, or reverse auction.
+<div class="vp-feature">
+  <div class="vp-feature-icon">⚙️</div>
+  <div class="vp-feature-content">
+    <h3><a href="/settings">Settings and Customization</a></h3>
+    <p>Manage API keys, team settings, and subscription plans.</p>
+  </div>
+</div>
 
-3. [Buying a Listing](guide/buy.md)  
-   Explore the process of purchasing assets listed by other users in a seamless transaction flow.
+<div class="vp-feature">
+  <div class="vp-feature-icon">❓</div>
+  <div class="vp-feature-content">
+    <h3><a href="/faq">Frequently Asked Questions</a></h3>
+    <p>Have questions? Find answers to common issues in our FAQ.</p>
+  </div>
+</div>
 
-4. [Reviewing Activity](guide/activity.md)  
-   Stay updated on your transaction history, including details like sales, buys, and listing activity.
+<style>
+.vp-feature {
+  display: flex;
+  align-items: center;
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
 
-## SDK Integration
+.vp-feature-icon {
+  font-size: 2rem;
+  margin-right: 16px;
+}
 
-For developers looking to integrate Arcpay into their platforms, check out our [SDK integration](./integrations.md) guide.
+.vp-feature-content h3 {
+  margin: 0;
+}
 
-## Settings and Customization
-
-Arcpay allows you to customize your experience by managing:
-
-- **API Keys**: Securely integrate with the Arcpay backend by generating and managing API keys.
-- **Organization Management**: Invite team members, link addresses, and configure fees for both primary and secondary markets.
-- **Subscription Plans**: Upgrade your subscription to unlock advanced features, including modular fees and custom requests.
-
-## Frequently Asked Questions
-
-If you encounter issues or have questions, visit our [FAQ section](./faq.md) for troubleshooting and detailed explanations.
-
+.vp-feature-content p {
+  margin: 0;
+}
+</style>

@@ -179,8 +179,8 @@ Arcpay requires API keys for advanced integration and interaction with the Arcpa
 
 To generate a new API key:
 
-1. Navigate to **Settings** > **Integrations** > **Generate New API Key**.
-2. Enter your **Key Name** and **Allowed Origin**. The origin is the domain from which requests will be sent.
+1. Navigate to **Settings** > **Integrations** > **Generate new key**.
+2. Enter your **Key name** and **Allowed origin**. The origin is the domain from which requests will be sent.
 
 Example:
 

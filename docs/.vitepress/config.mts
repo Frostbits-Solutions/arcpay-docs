@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "arcpay docs",
+  title: "Arcpay Docs",
   description: "Arcpay documentation site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -18,7 +18,8 @@ export default defineConfig({
           { text: 'Organization', link: '/guide/organization' },
           { text: 'Listing', link: '/guide/listing' },
           { text: 'Buy', link: '/guide/buy' },
-          { text: 'Activity', link: '/guide/activity' }
+          { text: 'Activity', link: '/guide/activity' },
+          { text: 'Getting Started', link: '/guide/getstarted' }
         ]
       },
       {
@@ -33,7 +34,7 @@ export default defineConfig({
     ],
     
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'twitter', link: 'https://x.com/FrostbitsLtd' }
     ]
   }
 })

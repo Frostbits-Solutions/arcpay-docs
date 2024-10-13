@@ -2,11 +2,7 @@
 
 Manage all organization settings within the **Settings** tab. From general management of team members to generating API keys, this section gives you control over your organization’s configuration.
 
-## General Settings
-
-Here’s a breakdown of the settings you can configure under the **General** section:
-
-### Invite New Team Members
+## Invite New Team Members
 
 You can easily expand your team by inviting new members via email. When sending an invitation, you'll also have the option to define each team member's role and set their access levels within your organization.
 
@@ -22,35 +18,36 @@ There are two primary roles within the organization:
 ##### Member
 - Limited permissions compared to Admin.
 - **Cannot** add or remove other team members.
-- **Can** add new addresses for transaction purposes.
+- **Cannot** add new addresses for transaction purposes.
 - **Cannot** modify organization-wide settings.
 - **Can** create and remove listings.
 
+::: tip
 By defining roles clearly, you ensure that each team member has the appropriate level of access based on their responsibilities within the organization.
+:::
 
-### Generate New API Key
-
-Create an API key that can be used with your SDK. Make sure to specify the **allowed origin** for secure integration.
-
-### Link Address to Organization
-
-Link one or more AVM addresses to your organization for primary market or secondary market fees. This is crucial for transaction management and listing creation.
-
-### Subscription
+## Subscription
 
 Upgrade your subscription plan to access premium features, such as modular fees and custom requests.
 
-### Organization Name
+## Organization Name
 
 You can set or modify the name of your organization. This name is visible only to your team members and will not be shared publicly.
 
-### Website
+## Website
 
 Add a link to your organization's website or social media profile, which will be displayed publicly in the purchase modal for listings.
 
-### Delete Organization
+## Link Address to Organization
 
-If you wish to remove your organization, you can do so by using the **Delete Organization** option. **Note:** Deleting an organization is permanent and will result in the loss of all associated data.
+Link one or more AVM addresses to your organization for primary market or secondary market fees. This is crucial for transaction management and listing creation.
+
+## Delete Organization
+
+If you wish to remove your organization, you can do so by using the **Delete Organization** option. 
+::: danger
+Deleting an organization is permanent and will result in the loss of all associated data.
+:::
 
 ## API Key Management
 

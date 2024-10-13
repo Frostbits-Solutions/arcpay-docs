@@ -23,7 +23,7 @@ Secondary listings are assets listed by third-party users of your SDK. These lis
 
 To manage secondary listings:
 
-- Set the **Secondary Market Fee** in **Settings** > **Listings**.
+- Set the **Third party listings fees** in **Settings** > **Listings**.
 - Review secondary listings by users of your SDK in the **Listings** section.
 
 ## Types of Listings
@@ -36,12 +36,13 @@ Arcpay supports three types of listings:
   
 ### 2\. Auction (English Auction)
 
-- The **English Auction** format allows you to set a starting bid for a tokenized asset.
+- The **Auction** format allows you to set a starting bid for a tokenized asset.
 - The price will increase after each bid, and the auction ends when the specified duration expires.
 
-### 3\. Reverse Auction (Dutch Auction)
+### 3\. Reverse (Dutch Auction)
 
-- A **Reverse Auction** starts with a high price that decreases over time. The price drops every block until the minimum price is reached or the auction duration expires.
+- The **Reverse** format starts with a high price that decreases over time.
+- The price drops every block until the minimum price is reached or the auction duration expires.
 
 ## Listing Management
 
