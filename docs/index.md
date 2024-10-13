@@ -18,19 +18,19 @@ hero:
 
 features:
   - icon: ⚙️
-    title: Organization Management
+    title: Organization Management #Sell NFTs and on-chain assets
     details: Manage your team and listings effortlessly by creating organizations and assigning roles.
-    link: /guide/organization.md
+    link: /guide/organization.md #NFT boilerplate
   - icon: 🛍️
-    title: Seamless Listings
+    title: Seamless Listings #Sell RWAs and off-chain assets
     details: Create, manage, and customize sales, auctions, and reverse auctions for digital assets.
-    link: /guide/listing.md
+    link: /guide/listing.md #RWA boilerplate
   - icon: 💸
-    title: Buy with Ease
+    title: Buy with Ease #Create Secondary Markets
     details: A simplified process to purchase NFTs, ASAs, and RWAs in a secure, decentralized environment.
-    link: /guide/buy.md
+    link: /guide/buy.md #SDK integration
   - icon: 📊
-    title: Transaction Monitoring
+    title: Monitor Activity
     details: Stay updated on your transaction activity by reviewing your sales and purchases.
     link: /guide/activity.md
 ---
@@ -41,7 +41,7 @@ features:
 Arcpay simplifies Web3 transactions, making them accessible for businesses and users alike. Built on AVM technology, Arcpay allows you to:
 
 - **Effortlessly transact using AVM tokens**
-- **Buy and sell NFTs, ASAs, and real-world assets (RWAs)**
+- **Buy and sell NFTs, SFTs, and real-world assets (RWAs)**
 - **Collaborate as a team through organization management**
 - **Create new revenue streams with self-deployed primary listings and SDK powered secondary markets**
 
