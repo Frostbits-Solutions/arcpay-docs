@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Arcpay"
-  text: "Effortless Web3 Payments"
+  text: "Effortless <span id='scrolling-keyword'>Web3</span> Payments"
   tagline: "Easy Monetization for AVM Dapps"
   image:
     src: /images/Dashboard.png
@@ -94,6 +94,15 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
 </div>
 
 <style>
+
+#scrolling-keyword {
+  font-weight: bold;
+  background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: opacity 0.3s ease;
+}
+
 .vp-feature {
   display: flex;
   align-items: center;
@@ -129,8 +138,6 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
   margin: 0 auto;   /* Center the image */
   display: block;   /* Ensure it's treated as a block-level element */
   border-radius: 12px;
-
-  /* New properties for the transparent border */
   border: 0px solid transparent;  /* Add a 5px transparent border */
   box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.2); /* Optional: Adds an outline or effect around the image */
 }
@@ -140,3 +147,22 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
   height: auto;
 }
 </style>
+
+<script>
+  const keywords = ['Web3', 'AVM', 'Algorand', 'Voi', 'Crypto'];
+  let currentIndex = 0;
+
+  setInterval(() => {
+    const keywordElement = document.getElementById('scrolling-keyword');
+
+    // Fade out the current keyword
+    keywordElement.style.opacity = '0';
+
+    // After a short delay, change the keyword and fade it back in
+    setTimeout(() => {
+      currentIndex = (currentIndex + 1) % keywords.length;
+      keywordElement.textContent = keywords[currentIndex];
+      keywordElement.style.opacity = '1';
+    }, 300); // Timing matches the CSS transition
+  }, 5000); // Change every 3 seconds
+</script>
