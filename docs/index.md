@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Arcpay"
-  text: "Simple <span id='scrolling-keyword'>Web3</span> \nPayments"
+  text: "Simple <span id='scrolling-keyword'>AVM</span> \nPayments"
   tagline: "Easy Monetization for AVM Dapps"
   image:
     src: /images/Dashboard.png
