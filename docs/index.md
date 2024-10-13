@@ -149,20 +149,24 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
 </style>
 
 <script>
-  const keywords = ['Web3', 'AVM', 'Algorand', 'Voi', 'Crypto'];
-  let currentIndex = 0;
+  if (typeof window !== 'undefined') {
+    const keywords = ['Web3', 'AVM', 'Algorand', 'Voi', 'Crypto'];
+    let currentIndex = 0;
 
-  setInterval(() => {
-    const keywordElement = document.getElementById('scrolling-keyword');
+    setInterval(() => {
+      const keywordElement = document.getElementById('scrolling-keyword');
 
-    // Fade out the current keyword
-    keywordElement.style.opacity = '0';
+      if (keywordElement) {
+        // Fade out the current keyword
+        keywordElement.style.opacity = '0';
 
-    // After a short delay, change the keyword and fade it back in
-    setTimeout(() => {
-      currentIndex = (currentIndex + 1) % keywords.length;
-      keywordElement.textContent = keywords[currentIndex];
-      keywordElement.style.opacity = '1';
-    }, 300); // Timing matches the CSS transition
-  }, 5000); // Change every 3 seconds
+        // After a short delay, change the keyword and fade it back in
+        setTimeout(() => {
+          currentIndex = (currentIndex + 1) % keywords.length;
+          keywordElement.textContent = keywords[currentIndex];
+          keywordElement.style.opacity = '1';
+        }, 300); // Timing matches the CSS transition
+      }
+    }, 7000); // Change every 5 seconds
+  }
 </script>
