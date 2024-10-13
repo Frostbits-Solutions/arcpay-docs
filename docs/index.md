@@ -6,7 +6,7 @@ hero:
   text: "Effortless Web3 Payments"
   tagline: "Easy Monetization for AVM Dapps"
   image:
-    src: /Dashboard.png
+    src: /images/Dashboard.png
     alt: "Arcpay Logo"
   actions:
     - theme: brand
@@ -17,19 +17,35 @@ hero:
       link: https://www.npmjs.com/package/arcpay-sdk
 
 features:
-  - icon: ⚙️
+  - icon:
+      src: /3dicons/setting-dynamic-gradient.png 
+      alt: "Setting Icon"
+      width: "50px" 
+      height: "50px" 
     title: Organization Management #Sell NFTs and on-chain assets
     details: Manage your team and listings effortlessly by creating organizations and assigning roles.
     link: /guide/organization.md #NFT boilerplate
-  - icon: 🛍️
+  - icon:
+      src: /3dicons/folder-dynamic-gradient.png 
+      alt: "Folder Icon"
+      width: "50px" 
+      height: "50px"  
     title: Seamless Listings #Sell RWAs and off-chain assets
-    details: Create, manage, and customize sales, auctions, and reverse auctions for digital assets.
+    details: Create, manage, and customize sales, auctions, and reverse auctions for any asset.
     link: /guide/listing.md #RWA boilerplate
-  - icon: 💸
-    title: Buy with Ease #Create Secondary Markets
-    details: A simplified process to purchase NFTs, ASAs, and RWAs in a secure, decentralized environment.
+  - icon:
+      src: /3dicons/money-bag-dynamic-gradient.png 
+      alt: "Money Bag Icon"
+      width: "50px" 
+      height: "50px"  
+    title: Sell with Ease #Create Secondary Markets
+    details: A simplified user process to purchase NFTs, ASAs, and RWAs in a secure, decentralized environment.
     link: /guide/buy.md #SDK integration
-  - icon: 📊
+  - icon:
+      src: /3dicons/chart-dynamic-gradient.png 
+      alt: "Chart Icon"
+      width: "50px" 
+      height: "50px"  
     title: Monitor Activity
     details: Stay updated on your transaction activity by reviewing your sales and purchases.
     link: /guide/activity.md
@@ -48,7 +64,9 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
 ---
 
 <div class="vp-feature">
-  <div class="vp-feature-icon">🔌</div>
+  <div class="vp-feature-icon">
+  <img src="/3dicons/tool-dynamic-gradient.png" alt="Tool Icon" class="icon-image" />
+  </div>
   <div class="vp-feature-content">
     <h3><a href="./integrations">SDK Integration</a></h3>
     <p>For developers looking to integrate Arcpay into their platforms.</p>
@@ -56,7 +74,9 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
 </div>
 
 <div class="vp-feature">
-  <div class="vp-feature-icon">⚙️</div>
+  <div class="vp-feature-icon">
+  <img src="/3dicons/setting-dynamic-gradient.png" alt="Setting Icon" class="icon-image" />
+  </div>
   <div class="vp-feature-content">
     <h3><a href="/settings">Settings and Customization</a></h3>
     <p>Manage API keys, team settings, and subscription plans.</p>
@@ -64,7 +84,9 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
 </div>
 
 <div class="vp-feature">
-  <div class="vp-feature-icon">❓</div>
+  <div class="vp-feature-icon">
+  <img src="/3dicons/puzzle-dynamic-gradient.png" alt="Puzzle Icon" class="icon-image" />
+  </div>
   <div class="vp-feature-content">
     <h3><a href="/faq">Frequently Asked Questions</a></h3>
     <p>Have questions? Find answers to common issues in our FAQ.</p>
@@ -111,5 +133,10 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
   /* New properties for the transparent border */
   border: 0px solid transparent;  /* Add a 5px transparent border */
   box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.2); /* Optional: Adds an outline or effect around the image */
+}
+
+.icon-image {
+  width: 48px; /* Adjust the size as needed */
+  height: auto;
 }
 </style>
