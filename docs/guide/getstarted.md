@@ -1,8 +1,8 @@
 ---
-title: Getting Started with Arcpay SDK
+title: Get Started with Arcpay SDK
 ---
 
-# Getting Started with Arcpay SDK
+# Get Started with Arcpay SDK
 
 Arcpay simplifies Web3 payment processing and asset management through organizations. This guide will walk you through the essential steps, from registering your account to setting up the SDK for seamless integration into your platform.
 

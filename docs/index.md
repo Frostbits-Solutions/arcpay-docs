@@ -6,15 +6,15 @@ hero:
   text: "Effortless Web3 Payments"
   tagline: "Easy Monetization for AVM Dapps"
   image:
-    src: /images/arcpay-logo.png
+    src: /public/Dashboard.png
     alt: "Arcpay Logo"
   actions:
     - theme: brand
       text: Get Started
-      link: /getstarted.md
+      link: /guide/getstarted.md
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/frostbits-solutions
+      text: View NPM Package
+      link: https://www.npmjs.com/package/arcpay-sdk
 
 features:
   - icon: ⚙️
@@ -92,5 +92,24 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
 
 .vp-feature-content p {
   margin: 0;
+}
+
+/* CSS to increase the hero image size */
+.VPHomeHero-image {
+  max-width: 400px; /* Adjust as needed */
+  width: 100%;
+}
+
+/* CSS to adjust the image size for the hero */
+.VPImage.image-src {
+  max-width: 500px; /* Increase the maximum width */
+  height: auto;     /* Maintain aspect ratio */
+  margin: 0 auto;   /* Center the image */
+  display: block;   /* Ensure it's treated as a block-level element */
+  border-radius: 12px;
+
+  /* New properties for the transparent border */
+  border: 0px solid transparent;  /* Add a 5px transparent border */
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.2); /* Optional: Adds an outline or effect around the image */
 }
 </style>

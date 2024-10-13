@@ -2,13 +2,20 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [
+    // Add the various favicons to your site
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+  ],
   title: "Arcpay Docs",
-  description: "Arcpay documentation site",
+  description: "Arcpay documentation",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Arcpay', link: 'https://arcpay.dev' }
+      { text: 'Arcpay Dashboard', link: 'https://app.arcpay.dev' }
     ],
 
     sidebar: [
@@ -19,7 +26,7 @@ export default defineConfig({
           { text: 'Listing', link: '/guide/listing' },
           { text: 'Buy', link: '/guide/buy' },
           { text: 'Activity', link: '/guide/activity' },
-          { text: 'Getting Started', link: '/guide/getstarted' }
+          { text: 'Get Started', link: '/guide/getstarted' }
         ]
       },
       {
@@ -34,7 +41,16 @@ export default defineConfig({
     ],
     
     socialLinks: [
-      { icon: 'twitter', link: 'https://x.com/FrostbitsLtd' }
-    ]
+      { icon: 'github', link: 'https://github.com/frostbits-solutions' }
+    ],
+
+    footer: {
+      message: "Made with ❤️ by Frostbits Solutions",
+      copyright: `© ${new Date().getFullYear()} Frostbits Solutions. All rights reserved.`,
+      links: [
+        { text: 'Frostbits', link: 'https://frostbits.solutions' },
+        { text: 'X (Twitter)', link: 'https://x.com/FrostbitsLtd' }
+      ]
+    }
   }
 })
