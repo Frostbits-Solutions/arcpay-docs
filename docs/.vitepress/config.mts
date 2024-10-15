@@ -16,7 +16,7 @@ export default defineConfig({
   description: "Arcpay documentation",
   themeConfig: {
 
-    logo: '/favicons/favicon-32x32.png',
+    logo: '/images/logo-transparent.png',
 
     outline: [2, 3],
 
