@@ -6,7 +6,7 @@ hero:
   text: "Simple <span id='scrolling-keyword'>AVM</span> \nPayments"
   tagline: "Easy Monetization for AVM Dapps"
   image:
-    src: /images/dashboard.png
+    src: ./images/dashboard.png
     alt: "Arcpay Logo"
   actions:
     - theme: brand
