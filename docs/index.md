@@ -6,12 +6,12 @@ hero:
   text: "Simple <span id='scrolling-keyword'>AVM</span> \nPayments"
   tagline: "Easy Monetization for AVM Dapps"
   image:
-    src: /images/Dashboard.png
+    src: /images/dashboard.png
     alt: "Arcpay Logo"
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/getstarted.md
+      link: /introduction/get-started
     - theme: alt
       text: View NPM Package
       link: https://www.npmjs.com/package/arcpay-sdk
@@ -22,25 +22,25 @@ features:
       alt: "Setting Icon"
       width: "50px" 
       height: "50px" 
-    title: Organization Management #Sell NFTs and on-chain assets
+    title: Organization Management
     details: Manage your team and listings effortlessly by creating organizations and assigning roles.
-    link: /guide/organization.md #NFT boilerplate
+    link: /dashboard/organization
   - icon:
       src: /3dicons/folder-dynamic-gradient.png 
       alt: "Folder Icon"
       width: "50px" 
       height: "50px"  
-    title: Seamless Listings #Sell RWAs and off-chain assets
+    title: Seamless Listings
     details: Create, manage, and customize sales, auctions, and reverse auctions for any asset.
-    link: /guide/listing.md #RWA boilerplate
+    link: /dashboard/other-settings
   - icon:
       src: /3dicons/money-bag-dynamic-gradient.png 
       alt: "Money Bag Icon"
       width: "50px" 
       height: "50px"  
-    title: Sell with Ease #Create Secondary Markets
+    title: Sell with Ease
     details: A simplified user process to purchase NFTs, SFTs, and RWAs in a secure, decentralized environment.
-    link: /guide/buy.md #SDK integration
+    link: /sdk/api-reference
   - icon:
       src: /3dicons/chart-dynamic-gradient.png 
       alt: "Chart Icon"
@@ -48,10 +48,9 @@ features:
       height: "50px"  
     title: Monitor Activity
     details: Stay updated on your transaction activity by reviewing your sales and purchases.
-    link: /guide/activity.md
+    link: /dashboard/activity-dashboard
 ---
 ---
-
 # Welcome to Arcpay
 
 Arcpay simplifies Web3 transactions, making them accessible for businesses and users alike. Built on AVM technology, Arcpay allows you to:
@@ -68,7 +67,7 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
   <img src="/3dicons/tool-dynamic-gradient.png" alt="Tool Icon" class="icon-image" />
   </div>
   <div class="vp-feature-content">
-    <h3><a href="./integrations">SDK Integration</a></h3>
+    <h3><a href="/sdk/integration">SDK Integration</a></h3>
     <p>For developers looking to integrate Arcpay into their platforms.</p>
   </div>
 </div>
@@ -78,7 +77,7 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
   <img src="/3dicons/setting-dynamic-gradient.png" alt="Setting Icon" class="icon-image" />
   </div>
   <div class="vp-feature-content">
-    <h3><a href="/settings">Settings and Customization</a></h3>
+    <h3><a href="/dashboard/settings">Settings and Customization</a></h3>
     <p>Manage API keys, team settings, and subscription plans.</p>
   </div>
 </div>
@@ -94,7 +93,6 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
 </div>
 
 <style>
-
 /* Default for larger screens (greater than 959px) */
 #scrolling-keyword {
   display: inline-block;
@@ -110,18 +108,18 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
 /* For screens less than 640px */
 @media (max-width: 639px) {
   #scrolling-keyword {
-    min-width: 140px; /* Ensures space for the longest word on smaller screens */
+    min-width: 140px;
   }
 }
 
 /* For screens between 640px and 959px */
 @media (min-width: 640px) and (max-width: 959px) {
   #scrolling-keyword {
-    min-width: 190px; /* Adjusted min width for medium screens */
+    min-width: 190px;
   }
 }
 
-/* Make sure hero text is always left-aligned */
+/* Ensure hero text is left-aligned */
 .VPHomeHero h1,
 .VPHomeHero p,
 .VPHomeHero .VPHomeHero-actions {
@@ -139,6 +137,7 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
   }
 }
 
+/* Feature Box Styles */
 .vp-feature {
   display: flex;
   align-items: center;
@@ -146,6 +145,14 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 16px;
+  transition: border 0.3s ease-in-out;
+  border: 1px solid transparent;
+}
+
+/* Hover effect to match the feature box with rounded corners and a new hover color */
+.vp-feature:hover {
+  border-color: #aeabfb; /* New border color on hover */
+  border-radius: 8px;    /* Ensures the hover effect keeps rounded corners */
 }
 
 .vp-feature-icon {
@@ -161,28 +168,26 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
   margin: 0;
 }
 
-/* CSS to increase the hero image size */
+/* Image styles */
 .VPHomeHero-image {
-  max-width: 400px; /* Adjust as needed */
+  max-width: 400px;
   width: 100%;
 }
 
-/* CSS to adjust the image size for the hero */
 .VPImage.image-src {
-  max-width: 500px !important;  /* Increase the maximum width */
-  height: auto;     /* Maintain aspect ratio */
-  margin: 0 auto;   /* Center the image */
-  display: block;   /* Ensure it's treated as a block-level element */
+  max-width: 500px !important;
+  height: auto;
+  margin: 0 auto;
+  display: block;
   border-radius: 12px;
-  border: 0px solid transparent;  /* Add a 5px transparent border */
-  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.2); /* Optional: Adds an outline or effect around the image */
+  border: 0px solid transparent;
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.2);
 }
 
 .icon-image {
-  width: 48px; /* Adjust the size as needed */
+  width: 48px;
   height: auto;
 }
-
 </style>
 
 <script>
@@ -202,8 +207,8 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
           currentIndex = (currentIndex + 1) % keywords.length;
           keywordElement.textContent = keywords[currentIndex];
           keywordElement.style.opacity = '1';
-        }, 300); // Timing matches the CSS transition
+        }, 300);
       }
-    }, 4000); // Change every 4 seconds
+    }, 4000);
   }
 </script>

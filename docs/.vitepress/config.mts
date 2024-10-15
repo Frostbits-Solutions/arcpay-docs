@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+
   head: [
-    // Add the various favicons to your site
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicons/apple-touch-icon.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicons/favicon-32x32.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicons/favicon-16x16.png' }],
@@ -13,7 +13,12 @@ export default defineConfig({
   title: "Arcpay Docs",
   description: "Arcpay documentation",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+
+    outline: [2, 3],
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/frostbits-solutions' }
+    ],
 
     search: {
       provider: 'local'
@@ -25,22 +30,35 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Guide',
+        text: 'Introduction',
         items: [
-          { text: 'Get Started', link: '/guide/getstarted' },
-          { text: 'Organization', link: '/guide/organization' },
-          { text: 'Listing', link: '/guide/listing' },
-          { text: 'Buy', link: '/guide/buy' },
-          { text: 'Activity', link: '/guide/activity' }
+          { text: 'Get Started', link: '/introduction/get-started' },
+          { text: 'SDK Integration', link: '/introduction/sdk-integration' }
         ]
       },
       {
-        text: 'Additional Information',
+        text: 'Listings',
         items: [
-          { text: 'Integrations', link: '/integrations' },
-          { text: 'Listings', link: '/listings' },
-          { text: 'Settings', link: '/settings' },
-          { text: 'FAQ', link: '/faq' }
+          { text: 'Listing Types', link: '/listings/listing-types' },
+          { text: 'Algorand', link: '/listings/algorand' },
+          { text: 'Voi', link: '/listings/voi' }
+        ]
+      },
+      {
+        text: 'Dashboard',
+        items: [
+          { text: 'Activity Insights', link: '/dashboard/activity' },
+          { text: 'Organization Management', link: '/dashboard/organization' },
+          { text: 'Settings', link: '/dashboard/settings' }
+        ]
+      },
+      {
+        text: 'SDK',
+        items: [
+          { text: 'Introduction', link: '/sdk/introduction' },
+          { text: 'Integration', link: '/sdk/integration' },
+          { text: 'API Keys', link: '/sdk/api-keys' },
+          { text: 'API Reference', link: '/sdk/api-reference' }
         ]
       },
       {
@@ -50,11 +68,20 @@ export default defineConfig({
           { text: 'Merch Shop', link: '/examples/RWAs' },
           { text: 'Secondary Market', link: '/examples/Secondary' }
         ]
+      },
+      {
+        text: 'FAQ',
+        link: '/faq'
+      },
+      {
+        text: 'Guides',
+        items: [
+          { text: 'Organization', link: '/guides/organization' },
+          { text: 'Listing', link: '/guides/listing' },
+          { text: 'Buy', link: '/guides/buy' },
+          { text: 'Activity', link: '/guides/activity' }
+        ]
       }
-    ],
-    
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/frostbits-solutions' }
     ],
 
     footer: {
