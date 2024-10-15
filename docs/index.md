@@ -32,7 +32,7 @@ features:
       height: "50px"  
     title: Seamless Listings
     details: Create, manage, and customize sales, auctions, and reverse auctions for any asset.
-    link: /dashboard/other-settings
+    link: listings/listing-types
   - icon:
       src: /3dicons/money-bag-dynamic-gradient.png 
       alt: "Money Bag Icon"
@@ -40,7 +40,7 @@ features:
       height: "50px"  
     title: Sell with Ease
     details: A simplified user process to purchase NFTs, SFTs, and RWAs in a secure, decentralized environment.
-    link: /sdk/api-reference
+    link: /sdk/introduction
   - icon:
       src: /3dicons/chart-dynamic-gradient.png 
       alt: "Chart Icon"
@@ -48,7 +48,7 @@ features:
       height: "50px"  
     title: Monitor Activity
     details: Stay updated on your transaction activity by reviewing your sales and purchases.
-    link: /dashboard/activity-dashboard
+    link: /dashboard/activity
 ---
 ---
 # Welcome to Arcpay
