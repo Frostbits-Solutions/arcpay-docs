@@ -191,24 +191,30 @@ Arcpay simplifies Web3 transactions, making them accessible for businesses and u
 </style>
 
 <script>
-  if (typeof window !== 'undefined') {
-    const keywords = ['AVM', 'Algo', 'ASA', 'Voi', 'ARC200'];
-    let currentIndex = 0;
+if (typeof window !== 'undefined') {
+  // Define the two possible keyword sequences, both starting with "AVM". We love both ecosystems <3
+  const option1 = ['AVM', 'Voi', 'ARC200', 'Algo', 'ASA']; // Voi first
+  const option2 = ['AVM', 'Algo', 'ASA', 'Voi', 'ARC200']; // Algorand first
 
-    setInterval(() => {
-      const keywordElement = document.getElementById('scrolling-keyword');
+  // Randomly select one of the two sequences
+  const keywords = Math.random() < 0.5 ? option1 : option2;
 
-      if (keywordElement) {
-        // Fade out the current keyword
-        keywordElement.style.opacity = '0';
+  let currentIndex = 0;
 
-        // After a short delay, change the keyword and fade it back in
-        setTimeout(() => {
-          currentIndex = (currentIndex + 1) % keywords.length;
-          keywordElement.textContent = keywords[currentIndex];
-          keywordElement.style.opacity = '1';
-        }, 300);
-      }
-    }, 4000);
-  }
+  setInterval(() => {
+    const keywordElement = document.getElementById('scrolling-keyword');
+
+    if (keywordElement) {
+      // Fade out the current keyword
+      keywordElement.style.opacity = '0';
+
+      // Change the keyword and fade it back in after a short delay
+      setTimeout(() => {
+        currentIndex = (currentIndex + 1) % keywords.length;
+        keywordElement.textContent = keywords[currentIndex];
+        keywordElement.style.opacity = '1';
+      }, 300);
+    }
+  }, 4000);
+}
 </script>
