@@ -15,13 +15,13 @@ To install the Arcpay SDK, simply run this command:
 ```typescript
 import { createClient, useArcpay } from 'arcpay-sdk';
 
-// Instantiate the arcpay client singleton for a given network. Calling this method twice with the same network will return the same instance.
-const arcpayClient = createClient('voi:testnet', {
+// Instantiate the arcpay client singleton for a given network. Calling this method twice with the same network will return the same instance. If using Voi use 'voi:mainnet'.
+const arcpayClient = createClient('algo:mainnet', {
   apiKey: '<your-api-key>', // API key can be obtained from the arcpay dashboard
 });
 
-// You can use the useArcpay helper to get the client instance after instantiating it.
-const arcpayClient = useArcpay('voi:testnet');
+// You can use the useArcpay helper to get the client instance after instantiating it. If using Voi use 'voi:mainnet'.
+const arcpayClient = useArcpay('algo:mainnet');
 
 // Create a VOI -> ARC-72 sale
 const listingId: string = await arcpayClient.create({listingType: 'sale'});
@@ -32,6 +32,9 @@ const listings: Listing[] = await arcpayClient.getListings();
 // Buy a listing
 const confirmation: TransactionConfirmation = arcpayClient.buy(listingId);
 ```
+
+**Listing modal and details can be viewed here:** **Listing modal example can be viewed here:** [Example GIF and description.](/guides/listing.html)
+
 
 <!--@include: ../sdk/api-reference.md-->
 

@@ -7,11 +7,39 @@ The Arcpay SDK is designed to seamlessly integrate AVM payment processing, asset
 ## Creating Listings
 With the SDK, you can create listings for NFTs, SFTs, and RWAs with just a few lines of code. Whether you’re offering fixed sales, auctions, or reverse auctions, the SDK makes configuration and management straightforward.
 
+### Algorand
+
 ```typescript
 import { createClient } from 'arcpay-sdk';
 
-// Instantiate the client for the 'voi:testnet' network
-const arcpayClient = createClient('voi:testnet', {
+// Instantiate the client for the 'algo:mainnet' network
+const arcpayClient = createClient('algo:mainnet', {
+  apiKey: '<your-api-key>', // Your API key from the Arcpay dashboard
+});
+
+// Create a listing for a specific asset
+const listingId: string = await arcpayClient.create({
+  assetId: '123',  // Replace with your asset ID
+  listingType: 'sale',  // 'sale', 'auction', or 'reverse'
+  listingName: 'Exclusive NFT',  // Optional: Name for the listing
+  price: 100,  // Set the price or starting bid for the listing
+});
+
+/* 
+ * The listingId returned can be used to track, display, or manage this listing 
+ * in your app's interface or marketplace.
+ */
+console.log(`Listing created with ID: ${listingId}`);
+
+```
+
+### Voi
+
+```typescript
+import { createClient } from 'arcpay-sdk';
+
+// Instantiate the client for the 'voi:mainnet' network
+const arcpayClient = createClient('voi:mainnet', {
   apiKey: '<your-api-key>', // Your API key from the Arcpay dashboard
 });
 
@@ -42,8 +70,8 @@ The SDK simplifies the buying and bidding processes. It offers a secure, out-of-
 ```typescript
 import { createClient } from 'arcpay-sdk';
 
-// Instantiate the client
-const arcpayClient = createClient('voi:testnet', {
+// Instantiate the client. If using Voi use 'voi:mainnet'
+const arcpayClient = createClient('algo:mainnet', {
   apiKey: '<your-api-key>',
 });
 
@@ -69,8 +97,8 @@ Enable secondary market functionality to allow users to resell purchased assets,
 ```typescript
 import { createClient } from 'arcpay-sdk';
 
-// Instantiate the client
-const arcpayClient = createClient('voi:testnet', {
+// Instantiate the client. If using Algorand use 'algo:mainnet'
+const arcpayClient = createClient('voi:mainnet', {
   apiKey: '<your-api-key>',
 });
 
