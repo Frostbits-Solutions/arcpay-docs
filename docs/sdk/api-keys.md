@@ -2,7 +2,7 @@
 
 ---
 
-Arcpay requires API keys for SDK integration and interaction with the Arcpay backend. Each API key must be associated with a specified origin to prevent unauthorized access.
+Arcpay requires API keys for SDK integration and interaction with the Arcpay backend. Each API key must be associated with a specified origin to limit unwanted use. Primary listings can only be made with both the API Key and registered addresses. This key is fully publishable and allows for the creation of secondary listings.
 
 ### Generate New API Key
 
