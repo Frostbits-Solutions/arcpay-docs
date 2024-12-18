@@ -23,7 +23,7 @@ The listing is created but is awaiting validation and indexing by the Arcpay ind
 ## <span class="status-active">Active</span>
 The listing has been indexed and is now accessible for purchase or bidding through SDK or direct link. It remains active until sold, expired, or manually closed.
 
-## <span class="status-cancelled">Cancelled</span>
+## <span class="status-cancelled">Cancel</span>
 The listing has been manually removed by its creator. It is no longer accessible for transactions but remains in the system as a reference.
 
 ## <span class="status-closed">Closed</span>
