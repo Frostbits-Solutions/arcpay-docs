@@ -62,7 +62,8 @@ export default defineConfig({
           { text: 'Introduction', link: '/sdk/introduction' },
           { text: 'Integration', link: '/sdk/integration' },
           { text: 'API Keys', link: '/sdk/api-keys' },
-          { text: 'API Reference', link: '/sdk/api-reference' }
+          { text: 'API Reference', link: '/sdk/api-reference' },
+          { text: 'IPFS Gateway', link: '/sdk/ipfs-gateway' }
         ]
       },
       {
