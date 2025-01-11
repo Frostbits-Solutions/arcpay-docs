@@ -13,7 +13,7 @@ the same instance.
 
 ##### Parameters
 
-- `network: PublicNetwork`: The network to use. Use `'voi:testnet'` for VOI testnet. `REQUIRED`
+- `network: PublicNetwork`: The network to use. Use `'voi:mainnet'` for Voi mainnet. Use `'algo:mainnet'` for Algorand mainnet. `REQUIRED`.
 - `options: ArcpayClientOptions`: Options to instantiate the client `REQUIRED`
     - `apiKey?: string`: Account API key. Can be obtained from the arcpay dashboard. The API key origin must match the
       request's origin. API key is required in most cases unless client is provided.
@@ -34,7 +34,7 @@ instantiating the client using `createClient`.
 
 ##### Parameters
 
-- `network: PublicNetwork`: The network to use. Use `'voi:testnet'` for VOI testnet. `REQUIRED`
+- `network: PublicNetwork`: The network to use. Use `'voi:mainnet'` for Voi mainnet. Use `'algo:mainnet'` for Algorand mainnet.
 
 ##### Returns
 

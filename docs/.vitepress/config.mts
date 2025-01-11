@@ -44,6 +44,7 @@ export default defineConfig({
         text: 'Listings',
         items: [
           { text: 'Listing Types', link: '/listings/listing-types' },
+          { text: 'Status', link: '/listings/status' },
           { text: 'Algorand', link: '/listings/algorand' },
           { text: 'Voi', link: '/listings/voi' }
         ]
