@@ -17,3 +17,12 @@ The first AVM network, designed for fast, secure, and scalable transactions with
 | **Auction**      | <center>✓</center> | <center>X</center> |
 | **Reverse**      | <center>✓</center> | <center>X</center> |
 
+### Fees
+On Listing:
+- 3 ALGO
+
+On Sale: 
+- 2%
+- Variable SDK %
+
+Fee Address: NA
