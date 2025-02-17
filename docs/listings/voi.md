@@ -9,6 +9,12 @@ A community driven AVM network, operated for fast, secure, and scalable decentra
 - **RWA**: Non-tokenized real-world assets.
 - **ARC72**: Digital smart contract asset. Created using the ARC72 standard, supporting advanced NFT and SFT functionalities.
 
+| Type        | ARC72            | RWA               |
+|-------------|-------------------|-------------------|
+| **Sale**    | <center>✓</center> | <center>✓</center> |
+| **Auction** | <center>✓</center> | <center>X</center> |
+| **Reverse** | <center>✓</center> | <center>X</center> |
+
 ### Fees
 On Listing:
 - 500 VOI
@@ -17,10 +23,4 @@ On Sale:
 - 2%
 - Variable SDK %
 
-
-
-| Type        | ARC72            | RWA               |
-|-------------|-------------------|-------------------|
-| **Sale**    | <center>✓</center> | <center>✓</center> |
-| **Auction** | <center>✓</center> | <center>X</center> |
-| **Reverse** | <center>✓</center> | <center>X</center> |
+Fee Address: ECGSWBZGFMGF65SUTXTIB3T5FNFUEBF2XISDITEQ7SNS4FAFV4BUI56BKI
